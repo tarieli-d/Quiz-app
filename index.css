@@ -1,0 +1,103 @@
+body {
+  font-family: "Indie Flower", cursive, arial, sans-serif;
+  background-size: 100% 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(1, 100, 299, 1) 100%,
+    rgba(18, 182, 231, 1) 99%
+  );
+  background: #0875bb;
+  background: white;
+}
+
+swal2-popup {
+  justify-content: left;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+}
+#quiz {
+  height: 10vmin;
+  background: black;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 7vmin;
+  color: white;
+  opacity: 0.8;
+}
+
+.select {
+  font-family: Verdana, sans-serif;
+  display: block;
+  padding: 1vmin 5vmin;
+  font-size: 4vmin;
+  border-radius: 2vmin;
+  margin: 2vmin;
+  color: rgba(13, 120, 207, 1);
+  opacity: 0.8;
+}
+.label {
+  font-size: 4vmin;
+  font-family: Verdana, sans-serif;
+  opacity: 0.8;
+}
+
+button {
+  font-family: Verdana, sans-serif;
+  background: #f2d533;
+  width: 100wmin;
+  color: black;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 1vmin 2vmin;
+  outline: none;
+  border: none;
+}
+.btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  height: 6vmin;
+  background-color: #4caf50;
+  color: #ffffff;
+  width: 100%;
+  border: 2px solid #ddd;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+#questions {
+  margin: auto;
+  background: whitesmoke;
+  color: black;
+  display: none;
+  padding: 3vmin;
+  font-size: 4vmin;
+  font-variant: Verdana, sans-serif;
+  flex-direction: column;
+  border: 3px solid transparent;
+  width: 70%;
+  box-shadow: 0 0 20px black /*#fff*/;
+}
+
+label {
+  font-size: 3vmin;
+  color: black;
+}
+
+li {
+  margin-top: 5vmin;
+  border-top: 1px black solid;
+  list-style-type: decimal;
+  color: #0875bb;
+}
+marquee {
+  position: absolute;
+  right: 0;
+  top: 2vmin;
+}
